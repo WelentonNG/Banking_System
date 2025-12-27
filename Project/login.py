@@ -36,6 +36,3 @@ def fazerlogin():
     username=input("Usuário:  ")
 
 
-
-
-fazerlogin()
