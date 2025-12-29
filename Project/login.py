@@ -84,7 +84,8 @@ def menu_pricipal():
         print("3. Criar novo usuário")
         print("4. sair")
 
-        opcao = input("Escolha uma opção (1-4):  ")
+        o = print("Escolha uma opção (1-4):  ")
+        opcao=input(">")
 
         if opcao == '1':
             sucesso, usuario = fazer_login()
